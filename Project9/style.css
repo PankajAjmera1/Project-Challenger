@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+/* body::-webkit-scrollbar{
+    display: none;
+} */
+
+nav{
+    font-weight: 700;
+    background: rgb(246, 189, 115);
+    display: flex;
+    align-items: center;
+    height: 75px;
+    color: rgb(150, 22, 22);
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.logo{
+    margin: 10px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    /* background:  rgb(150, 45, 38); */
+    padding: 18px;
+    color: rgb(117, 78, 78);
+    cursor: pointer;
+
+}
+.logo:hover{
+    color: black;
+    background: rgb(246, 189, 115);
+}
+ ul{
+    display: flex;
+    margin-right: 50px;
+   
+   
+
+}
+nav ul li{
+    list-style: none;
+   margin: 0 25px;
+}
+nav ul li:hover{
+    color: #352f2f;
+    cursor: pointer;
+}
+
+.container{
+    min-height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container h1{
+    text-align: center ;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: rgb(34, 201, 154);
+    border-radius: 5px;
+    border: 2px solid  black;
+}
+
+/* .card
+{  width: 750px;
+    height: 500px;
+    background: #8a3737;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+} */
+.card form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.card form input[type='number'],label,select{
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+
+}
+.card form label{
+  margin-right: 175px;
+  color: rgb(114, 50, 50);
+    
+
+}
+.btn{
+    border-radius: 5px;
+    border: none ;
+    font-size: 25px;
+    background: #1d9758;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 22px;
+}
+footer{
+    text-align: center;
+    font-weight: 800;
+    background: #5e5454;
+    color: white;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.output table{
+    width: 45vw;
+    text-align: center;
+    border: 2px solid #000000;
+    color: rgb(34, 165, 78);
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.output table caption{
+    margin-bottom: 5px;
+}
+.output{
+    display: none;
+}

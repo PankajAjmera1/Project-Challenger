@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Currency Convertor
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Our Serices</li>
+            <li>Feeback</li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h1>Choose a Currency to Convert</h1>
+            <form action="" method="get">
+                <label for="choose a quantity">Choose a Quantity:</label>
+
+                <input type="number" name="quantity" min="1" max="10">
+                <label for="choose a currency">Choose a Currency:</label>
+                <select name="currency" id="">
+                    <option value="INR">Indian Rupee</option>
+                    <option value="USD">US Dollar</option>
+                    <option value="EUR">Euro</option>
+                </select>
+                <button class="btn " type="submit">Submit</button>
+            </form>
+            <div class="output">
+                <table>
+                    <caption>Converted Currency</caption> 
+                    <thead>
+                        <tbody>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Currency Code</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        Copyright &copy;All Right RRReserved - Decoder Pankaj
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
